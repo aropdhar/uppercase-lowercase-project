@@ -1,0 +1,130 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input_main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    background: #eeee;
+    width: 500px;
+    margin: 120px auto;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    
+}
+
+.input_main h1{
+
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #907b2f;
+}
+.inputbox{
+
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.btn_case{
+
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin: 30px 0;
+    
+}
+
+
+.btn{
+
+    
+    background: #907b2f;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.lowerbtn{
+
+    
+    background: #907b2f;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.repeatbtn{
+
+    background: #907b2f;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.convert_content{
+    
+
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+
+/* media query  */
+
+
+@media(max-width: 768px){
+
+    .input_main{
+
+        width: 290px;
+    }
+
+    .input_main h1{
+
+        font-size: 12px;
+    }
+
+    .inputbox{
+
+        width: 250px;
+    }
+
+    
+    .btn_case{
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex: 1 1 5rem;
+        column-gap: 10px;
+    }
+
+    .lowerbtn{
+
+        margin-left: 50px;
+    }
+
+}
